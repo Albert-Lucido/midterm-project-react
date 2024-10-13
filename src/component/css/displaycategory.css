@@ -1,0 +1,57 @@
+.DisplayCategory {
+    background: #1A1A40;
+    padding: 20px;
+    border: 5px solid rgb(255, 0, 127);
+    border-radius: 5px;
+    max-width: 800px;
+    margin: 40px auto;
+  }
+  
+.DisplayCategory label {
+    color: #fff;
+    margin-bottom: 4px;
+    display: block;
+}
+  
+.DisplayCategory select {
+    outline: none;
+    background: none;
+    border: 1px solid #FF55A3;
+    padding: 4px 16px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    width: 100%;
+    color: #fff;
+}
+  
+.DisplayCategory option {
+    background: #fff;
+    color: #000;
+    font-size: 16px;
+}
+  
+.DisplayCategory table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+  
+.DisplayCategory th, .DisplayCategory td {
+    border: 1px solid #FF55A3;
+    padding: 8px;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    white-space: nowrap;
+}
+  
+.DisplayCategory th {
+    background-color: #FF55A3;
+    color: #fff;
+}
+  
+.DisplayCategory td {
+    background-color: #1A1A40;
+    color: #fff;
+}

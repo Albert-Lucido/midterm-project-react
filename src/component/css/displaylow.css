@@ -1,0 +1,34 @@
+.DisplayLow {
+    background: #1A1A40;
+    padding: 20px;
+    border: 5px solid rgb(255, 0, 127);
+    border-radius: 5px;
+    max-width: 800px;
+    margin: 40px auto;
+  }
+  
+  .DisplayLow table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+  }
+  
+  .DisplayLow th, .DisplayLow td {
+    border: 1px solid #FF55A3;
+    padding: 8px;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    white-space: nowrap;
+  }
+  
+  .DisplayLow th {
+    background-color: #FF55A3;
+    color: #fff;
+  }
+  
+  .DisplayLow td {
+    background-color: #1A1A40;
+    color: #fff;
+  }

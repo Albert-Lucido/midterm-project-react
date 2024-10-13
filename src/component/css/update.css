@@ -1,0 +1,69 @@
+.Update {
+    background: #1A1A40;
+    padding: 20px;
+    border: 5px solid rgb(255, 0, 127);
+    border-radius: 5px;
+    width: 50%;
+    margin: 40px auto;
+  }
+  
+  .Update form {
+    width: 100%;
+    margin-bottom: 8px;
+  }
+  
+  .Update label {
+    color: #fff;
+    margin-bottom: 4px;
+    display: block;
+  }
+  
+  .Update input[type="text"],
+  .Update input[type="number"] {
+    outline: none;
+    background: none;
+    border: 1px solid #FF55A3;
+    padding: 4px 16px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    width: 100%;
+    color: #fff;
+    font-size: 16px;
+    box-sizing: border-box;
+  }
+  
+  .Update select {
+    outline: none;
+    background: #fff;
+    border: 1px solid #FF55A3;
+    padding: 4px 16px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    width: 100%;
+    color: #000;
+    font-size: 16px;
+    box-sizing: border-box;
+  }
+  
+  .Update option {
+    background: #fff;
+    color: #000;
+    font-size: 16px;
+  }
+  
+  .Update button[type="submit"] {
+    background: #FF55A3;
+    color: #fff;
+    border: none;
+    padding: 5.5px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    display: block;
+  }
+  
+  .Update button[type="submit"]:hover {
+    background: #FF458E;
+  }

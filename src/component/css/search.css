@@ -1,0 +1,83 @@
+.Search {
+  background: #1A1A40;
+  padding: 20px;
+  border: 5px solid rgb(255, 0, 127);
+  border-radius: 5px;
+  width: 50%;
+  margin: 40px auto;
+}
+
+.Search form {
+  width: 100%;
+  margin-bottom: 8px;
+}
+
+.Search label {
+  color: #fff;
+  margin-bottom: 4px;
+  display: block;
+}
+
+.Search input[type="text"] {
+  outline: none;
+  background: none;
+  border: 1px solid #FF55A3;
+  padding: 4px 16px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  width: 100%;
+  color: #fff;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.Search button[type="submit"] {
+  background: #FF55A3;
+  color: #fff;
+  border: none;
+  padding: 5.5px;
+  cursor: pointer;
+  width: 100%;
+  font-size: 16px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  display: block;
+}
+
+.Search button[type="submit"]:hover {
+  background: #FF458E;
+}
+
+.Search table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+.Search th, .Search td {
+  border: 1px solid #FF55A3;
+  padding: 8px;
+  text-align: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-wrap: break-word;
+  white-space: nowrap;
+}
+
+.Search th {
+  background-color: #FF55A3;
+  color: #fff;
+}
+
+.Search td {
+  background-color: #1A1A40;
+  color: #fff;
+}
+
+.Search p {
+  color: red;
+  font-size: 16px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  text-align: center;
+}

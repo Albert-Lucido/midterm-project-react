@@ -1,0 +1,80 @@
+.add-container {
+  background: #1A1A40;
+  padding: 20px;
+  border: 5px solid rgb(255, 0, 127);
+  border-radius: 5px;
+  max-width: 600px;
+  margin: 40px auto;
+}
+
+.add-container form {
+  width: 100%;
+  margin-bottom: 8px;
+}
+
+.add-container label {
+  color: #fff;
+  margin-bottom: 4px;
+  display: block;
+}
+
+.add-container input[type="text"],
+.add-container input[type="number"] {
+  outline: none;
+  background: none;
+  border: 1px solid #FF55A3;
+  padding: 4px 16px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  width: 100%;
+  color: #fff;
+}
+
+.add-container select {
+  outline: none;
+  background: #fff;
+  border: 1px solid #FF55A3;
+  padding: 4px 16px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  width: 100%;
+  color: #000;
+  font-size: 16px;
+}
+
+.add-container option {
+  background: #fff;
+  color: #000;
+  font-size: 16px;
+}
+
+.add-container input[type="submit"] {
+  background: #FF55A3;
+  color: #fff;
+  border: none;
+  padding: 5.5px;
+  cursor: pointer;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  width: 100%;
+}
+
+.add-container input[type="submit"]:hover {
+  background: #FF55A3;
+  color: #fff;
+  border: none;
+  padding: 5.5px;
+  cursor: pointer;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  width: 100%;
+  opacity: 0.8;
+}
+
+.add-container p {
+  color: red;
+  font-size: 14px;
+  margin-top: 0;
+  margin-bottom: 8px;
+  text-align: center;
+}
